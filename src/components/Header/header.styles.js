@@ -14,6 +14,21 @@ max-width:var(--maxWidth);
 max-height:var(--maxHeight); 
 padding: 20px 0;
 margin: 0 auto;
+color:#fff;
+a{
+  color:#fff;
+  text-decoration:none;
+}
+
+span{
+   font-weight:900;
+   color:white;
+   position:relative;
+   right:75px;
+   @media(max-width:720px){
+    right:-1px;
+   }
+}
 `;
 
 export const LogogImg = styled.img`

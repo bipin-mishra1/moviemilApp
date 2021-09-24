@@ -1,13 +1,23 @@
-import React from "react";
+import React,{useContext} from "react";
 import PropTypes from 'prop-types';
 import {POSTER_SIZE,IMAGE_BASE_URL} from '../../config';
 import Thumb from '../Thumbnail/Thumb';
 //fallback image
 import No_Image from '../../images/no_image.jpg';
 import {Wrapper,Content,Text} from './MovieInfo.styles';
+import Rate from "../rate";
+import API from '../../API';
+// Context
+import { Context } from '../../context';
+const MovieInfo = ({movie})=>{
+    const [user] = useContext(Context);
 
-const MovieInfo = ({movie})=>(
-  <Wrapper backdrop={movie.backdrop_path}>
+    const handleRating = async value => {
+      const rate = await API.rateMovie(user.sessionId, movie.id, value);
+      console.log(rate);
+    };
+  
+  return (<Wrapper backdrop={movie.backdrop_path}>
     <Content>
         <Thumb
         image = {
@@ -34,11 +44,15 @@ const MovieInfo = ({movie})=>(
                     }
                     
                 </div>
+                <div>
+                    <p>Rate Movie</p>
+                    <Rate callback={handleRating}/>
+                    </div> 
             </div>
         </Text>
         </Content>
-    </Wrapper>
-)
+    </Wrapper>)
+}
 MovieInfo.propTypes = {
     movie: PropTypes.object
 }
