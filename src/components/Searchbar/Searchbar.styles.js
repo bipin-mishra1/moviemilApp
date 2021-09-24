@@ -40,4 +40,13 @@ color: var(--white);
    input:focus{
        outline: none;
    }
+
+   @media screen and (max-width: 640px){
+       img{
+           display:none;
+       }
+       input{
+           font-weight:900;
+       }
+   }
 `;
