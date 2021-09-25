@@ -14,7 +14,7 @@ const Rate = ({ callback }) => {
       />
       {value}
       <p>
-        <button onClick={() => callback(value)}>Rate</button>
+        <button onClick={() => callback(value)}>Rate : {value}</button>
       </p>
     </div>
   );

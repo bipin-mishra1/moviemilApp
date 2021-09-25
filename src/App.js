@@ -15,6 +15,7 @@ function App() {
   return (
    <Router>
      <UserProvider>
+     <GlobalStyles />
      <Header />
      <Routes>
        <Route path="/" element={<Home/>}/>
@@ -22,7 +23,6 @@ function App() {
        <Route path="/:movieId" element={<Movie/>} />
        <Route path="/*" element={<NotFound/>}/>
        </Routes>  
-     <GlobalStyles />
      </UserProvider>
     </Router>
   );

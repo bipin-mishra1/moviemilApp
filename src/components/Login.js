@@ -44,20 +44,28 @@ const Login = () => {
 
   return (
     <Wrapper>
-      {error && <div className='error'>There was an error!</div>}
-      <label>Username:</label>
+      <label>Enter your information:</label>
+      <div>
       <input
         type='text'
         value={username}
         name='username'
         onChange={handleInput}
+        required
       />
+      <label>username</label>
+      </div>
+      <div>
       <input
         type='password'
         value={password}
         name='password'
         onChange={handleInput}
+        required
       />
+      <label>password</label>
+      </div>
+      {error && <div className='error'>Check your username or password!</div>}
       <Button text='Login' callback={handleSubmit} />
     </Wrapper>
   );
