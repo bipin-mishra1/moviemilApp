@@ -25,6 +25,7 @@ span{
    color:white;
    position:relative;
    right:75px;
+   cursor:pointer;
    @media(max-width:720px){
     right:-1px;
    }

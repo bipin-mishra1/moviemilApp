@@ -10,13 +10,19 @@ import { Context } from "../../context";
 
 const Header = () => {
     const [user] = useContext(Context);
-    
+      const logout = ()=>{
+         localStorage.clear();
+         window.location.href = '/';
+     }
     return ( <Wrapper>
+
        <Content>
           <Link to="/">
           <LogogImg src = {Logo} alt="Company logo"/>
           </Link>
-          {user ?(<span className="loggedin">Logged In as:{user.username}</span>):
+          {user ?(<><span className="loggedin">Logged In as:{user.username}</span><span onClick={logout}>Logout</span></>
+          
+          ):
           (
              <Link to="/login">
                 <span className="login">Login</span>
