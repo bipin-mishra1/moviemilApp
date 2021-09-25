@@ -41,6 +41,12 @@ color: var(--white);
        outline: none;
    }
 
+   @media screen and (max-width: 1028px){
+    img{
+     bottom:-115px;
+    }
+   }
+
    @media screen and (max-width: 640px){
        img{
            display:none;

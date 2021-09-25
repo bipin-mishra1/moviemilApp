@@ -20,7 +20,7 @@ const Header = () => {
           <Link to="/">
           <LogogImg src = {Logo} alt="Company logo"/>
           </Link>
-          {user ?(<><span className="loggedin">Logged In as:{user.username}</span><span onClick={logout}>Logout</span></>
+          {user ?(<><span className="loggedin">Logged In as : {user.username}</span><span onClick={logout}>Logout</span></>
           
           ):
           (

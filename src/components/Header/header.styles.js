@@ -26,8 +26,15 @@ span{
    position:relative;
    right:75px;
    cursor:pointer;
+   border:1px solid grey;
+   padding: 6px;
+   border-radius:4px;
    @media(max-width:720px){
     right:-1px;
+   }
+   transition: all 0.5s;
+   :hover{
+     background:grey;
    }
 }
 `;
