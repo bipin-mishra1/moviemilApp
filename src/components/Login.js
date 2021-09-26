@@ -46,6 +46,7 @@ const Login = () => {
     <Wrapper>
       <label>Enter your information:</label>
       <div>
+     <label>username</label>
       <input
         type='text'
         value={username}
@@ -53,9 +54,10 @@ const Login = () => {
         onChange={handleInput}
         required
       />
-      <label>username</label>
+     
       </div>
       <div>
+          <label>password</label>
       <input
         type='password'
         value={password}
@@ -63,7 +65,7 @@ const Login = () => {
         onChange={handleInput}
         required
       />
-      <label>password</label>
+      
       </div>
       {error && <div className='error'>Check your username or password!</div>}
       <Button text='Login' callback={handleSubmit} />
