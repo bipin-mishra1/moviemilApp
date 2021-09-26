@@ -7,8 +7,6 @@ justify-content:center;
 width: 100%;
 height:70px;
 background: var(--medgrey);
-color: var(--white);
-
 `;
 
 export const Content = styled.div`
@@ -19,7 +17,7 @@ padding: 0 20px;
 
 span{
     font-size:var(--fontmed);
-    color:#fff;
+    color: #9A6CB9;
     padding-right: 10px;
 
     @media screen and (max-width:768px){

@@ -14,7 +14,7 @@ max-width:var(--maxWidth);
 max-height:var(--maxHeight); 
 padding: 20px 0;
 margin: 0 auto;
-color:#fff;
+color:rgb(126,137,192);
 a{
   color:#fff;
   text-decoration:none;
@@ -22,7 +22,7 @@ a{
 
 span{
    font-weight:900;
-   color:white;
+   color:rgb(126,137,192);
    position:relative;
    right:75px;
    cursor:pointer;

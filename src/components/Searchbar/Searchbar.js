@@ -1,7 +1,6 @@
 import React,{useEffect,useState,useRef} from "react";
 import PropTypes from 'prop-types';
-//search icon image
-import SearchIcon from '../../images/search-icon.svg';
+import {FaSearch} from 'react-icons/fa';
 
 import { Wrapper,Content } from "./Searchbar.styles";
 
@@ -25,10 +24,10 @@ const SearchBar = ({setSearchTerm})=>{
     return (
         <Wrapper>
             <Content>
-            <img src = {SearchIcon} alt='search-icon'/>
+            <FaSearch className="search-icon"/>
             <input 
              type = 'text'
-             placeholder='search movies' 
+             placeholder='search movies...' 
              onChange={event=>setState(event.currentTarget.value)}
              value = {state}
              />

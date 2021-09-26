@@ -8,13 +8,13 @@ const MovieInfoBar = ({ time, budget, revenue }) => (
     <Wrapper>
         <Content>
             <div className='column'>
-              <p>Watch-Hours:{calcTime(time)}</p>
+              <p>Watch-Hours : {calcTime(time)}</p>
             </div>
             <div className='column'>
-              <p>Budget:{convertMoney(budget)}</p>
+              <p>Budget : {convertMoney(budget)}</p>
             </div>
             <div className='column'>
-             <p>Revenue:{convertMoney(revenue)}</p>
+             <p>Revenue : {convertMoney(revenue)}</p>
             </div>
         </Content>
     </Wrapper>

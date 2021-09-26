@@ -10,7 +10,7 @@ const Actor = ({name,character,imageURL}) => (
         alt='actor-img'
         />
         <h3>{name}</h3>
-        <p>{character}</p>
+        <p>as {character}</p>
     </Wrapper>
 
 )

@@ -4,7 +4,7 @@
  display:flex;
  align-items:center;
  min-height:100px;
- background:var(--darkgrey);
+ background:#0A0D1E;
  padding:0 20px;
  `;
 
@@ -18,9 +18,10 @@ margin:0 auto;
     display: flex;
     align-items:center;
     justify-content:center;
-    background:grey;
+    background:#252B4A;
     border-radius:20px;
     margin:0 20px;
+    font-weight:700;
     flex:1;
     :first-child{
         margin-left:0;

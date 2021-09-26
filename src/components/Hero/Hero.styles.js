@@ -25,6 +25,7 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   padding: 20px;
   margin: 0 auto;
+  background:none;
   max-width: var(--maxWidth);
   @media and screen(max-width: 720px){
       width: 100%;

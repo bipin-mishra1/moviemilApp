@@ -47,7 +47,9 @@
      border-radius:30px;
      margin:0;
   }
-
+  h3{
+    color:#7E89C0
+  }
   .director{
       margin:0 0 0 40px;
   }
