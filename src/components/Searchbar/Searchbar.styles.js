@@ -9,7 +9,7 @@ padding: 0 20px;
 `;
 
 export const Content = styled.div`
-postion: relative;
+position:relative;
 max-width: var(--maxWidth);
 width: 100%;
 height: 55px;
@@ -37,21 +37,20 @@ color: var(--white);
 .search-icon{
     font-size:2rem;
     position:absolute;
-    right:50px;
-    bottom:-97px;
+    right:25px;
+    top:10px;
     color:#786872;
-    @media(max-width:1028px){
-    bottom:-120px;
-    }
+}
+@media(max-width:414px){
+.search-icon{
+    font-size:1.4rem;
+ }
+ input{
+     font-size:1rem;
+ }
+ .search-icon{
+     top:17px;
+ }
 }
 
-   @media screen and (max-width: 640px){
-       input{
-           font-size:20px;
-       }
-       .search-icon{
-          font-size:1.67rem;
-          bottom:-122px;
-       }
-   }
 `;
