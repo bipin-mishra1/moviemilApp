@@ -16,11 +16,12 @@ export const Wrapper = styled.div`
   input {
     font-size:large;
     width: 100%;
-    height: 30px;
+    height: 35px;
     border: 2px solid grey;
     border-radius: 20px;
     margin: 10px 0;
     padding: 10px;
+    outline-style:none;
   }
   
   .error {
