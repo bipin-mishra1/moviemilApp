@@ -26,7 +26,7 @@ span{
    position:relative;
    right:75px;
    cursor:pointer;
-   border:1px solid grey;
+   border:1px solid #786872;
    padding: 6px;
    border-radius:4px;
    @media(max-width:720px){
@@ -34,7 +34,8 @@ span{
    }
    transition: all 0.5s;
    :hover{
-     background:grey;
+     background:#0D1126;
+     box-shadow:2px 2px 1px 1px #9A6CB9;
    }
 }
 `;

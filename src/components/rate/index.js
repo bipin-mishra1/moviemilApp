@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {P} from './rate.style';
 const Rate = ({ callback }) => {
   const [value, setValue] = useState(5);
 
@@ -12,10 +12,9 @@ const Rate = ({ callback }) => {
         value={value}
         onChange={e => setValue(e.currentTarget.value)}
       />
-      {value}
-      <p>
+      <P>
         <button onClick={() => callback(value)}>Rate : {value}</button>
-      </p>
+      </P>
     </div>
   );
 };

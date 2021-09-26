@@ -2,7 +2,7 @@
 
 
 export const Spinner = styled.div`
-  border: 5px solid var(--lightgrey);
+  border: 5px solid #9A6CB9;
   border-top: 5px solid var(--medgrey);
   border-radius: 50%;
   width: 50px;
