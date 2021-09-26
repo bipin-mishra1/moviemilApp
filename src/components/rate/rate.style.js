@@ -18,12 +18,12 @@ button
         text-decoration: none;
     :hover{
         background: #9A6CB9;
-  background-image: -webkit-linear-gradient(top, #9A6CB9, #2a24d4);
-  background-image: -moz-linear-gradient(top, #9A6CB9, #2a24d4);
-  background-image: -ms-linear-gradient(top, #9A6CB9, #2a24d4);
-  background-image: -o-linear-gradient(top, #9A6CB9, #2a24d4);
-  background-image: linear-gradient(to bottom, #9A6CB9, #2a24d4);
-  text-decoration: none;
+        background-image: -webkit-linear-gradient(top, #9A6CB9, #2a24d4);
+        background-image: -moz-linear-gradient(top, #9A6CB9, #2a24d4);
+        background-image: -ms-linear-gradient(top, #9A6CB9, #2a24d4);
+        background-image: -o-linear-gradient(top, #9A6CB9, #2a24d4);
+        background-image: linear-gradient(to bottom, #9A6CB9, #2a24d4);
+        text-decoration: none;
     }  
     }
       
