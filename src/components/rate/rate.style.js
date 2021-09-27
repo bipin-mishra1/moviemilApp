@@ -1,5 +1,34 @@
 import styled from "styled-components";
 
+
+export const I = styled.div`
+.range {
+    width: 300px;
+    height: 10px;
+    -webkit-appearance: none;
+    background: #252B4A;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  }
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #9A6CB9;
+    cursor: pointer;
+    border: 4px solid #333;
+    box-shadow: -407px 0 0 400px #9A6CB9;
+  }
+  
+
+`
+
+
+
+
 export const P = styled.p`
 button
     {
