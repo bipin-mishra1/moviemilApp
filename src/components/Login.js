@@ -47,7 +47,7 @@ const Login = () => {
       <label>Enter your information:</label>
       <div>
      <label>username</label>
-      <input
+      <input 
         type='text'
         value={username}
         name='username'

@@ -17,13 +17,14 @@ export const Wrapper = styled.div`
     font-size:large;
     width: 100%;
     height: 35px;
-    border: 2px solid grey;
+    border: none;
     border-radius: 20px;
     margin: 10px 0;
     padding: 10px;
     outline-style:none;
+    background:#1C1D1F;
+    color:#7589C0;
   }
-  
   .error {
     color: red;
     margin-top:15px;
