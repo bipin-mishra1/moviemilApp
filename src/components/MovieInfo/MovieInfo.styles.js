@@ -53,10 +53,17 @@
     color:#7E89C0
   }
   .director{
-      margin:0 0 0 40px;
+      margin:0 0 0 20px;
   }
 
   p{
       margin:0;
+  }
+
+  .rate{
+    p{
+      margin-top:13px;
+    }
+
   }
  `;
