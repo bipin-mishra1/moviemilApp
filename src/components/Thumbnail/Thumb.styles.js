@@ -8,7 +8,8 @@ object-fit: cover;
 border-radius: 20px;
 animation: animateThumbnail 0.5s;
 :hover{
-    opacity: 0.8;
+    transform: scale(1.1);
+    opacity:0.8;
 }
 @keyframes animateThumbnail{
     from{
