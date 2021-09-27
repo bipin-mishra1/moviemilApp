@@ -22,7 +22,7 @@ a{
 
 span{
    font-weight:900;
-   color:rgb(126,137,192);
+   color:#9A6CB9;
    position:relative;
    right:75px;
    cursor:pointer;
