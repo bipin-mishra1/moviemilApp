@@ -2,8 +2,8 @@ import styled  from "styled-components";
 
 export const Wrapper = styled.div`
 
-background: var(--darkgrey);
-padding: 0 20px;
+background:#0D1126;
+padding: 5px 20px;
 `;
 
 export const Content = styled.div`
@@ -41,10 +41,10 @@ span{
 `;
 
 export const LogogImg = styled.img`
-  width: 250px;
-
+  width: 130px;
+  margin-top:20px;
   @media screen and (max-width: 500px){
-      width:130px;
+      width:70px;
   }
 `;
 
