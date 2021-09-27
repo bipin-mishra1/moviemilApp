@@ -19,11 +19,11 @@ const MovieInfo = ({movie})=>{
   
   return (<Wrapper backdrop={movie.backdrop_path}>
     <Content>
-        <Thumb
+        <Thumb      
         image = {
             movie.poster_path?`${IMAGE_BASE_URL}${POSTER_SIZE}${movie.poster_path}`:No_Image
         }
-        clickable = {true}
+        clickable = {false}
         />
         <Text>
             <h1>{movie.title}</h1>

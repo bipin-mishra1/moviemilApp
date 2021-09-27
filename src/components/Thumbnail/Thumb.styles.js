@@ -7,15 +7,15 @@ transition: all 0.3s;
 object-fit: cover;
 border-radius: 20px;
 animation: animateThumbnail 0.5s;
-:hover{
-    transform: scale(1.1);
-    opacity:0.8;
-}
 @keyframes animateThumbnail{
     from{
         opacity:0;
     }to{
         opacity:1;
     }
+}
+:hover{
+    transform: scale(1.1);
+    opacity:0.8;
 }
 `;

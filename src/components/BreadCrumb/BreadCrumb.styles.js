@@ -6,7 +6,7 @@ align-items:center;
 justify-content:center;
 width: 100%;
 height:70px;
-background: var(--medgrey);
+background:#252B4A;
 `;
 
 export const Content = styled.div`
@@ -19,7 +19,7 @@ span{
     font-size:var(--fontmed);
     color: #9A6CB9;
     padding-right: 10px;
-
+    font-weight:bold;
     @media screen and (max-width:768px){
         font-size:var(--fontsmall);
     }
