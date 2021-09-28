@@ -13,10 +13,19 @@ const Play = ({video})=>{
     
     return(
         <Wrapper>
-            <button className='play' onClick={handlePlay}>
-             PLay Trailer
+            <button onClick={handlePlay}>
+             Play Trailer
             </button>
-            <ReactPlayer url={videoURL} controls={true}/>
+        <div className="player-wrapper">
+            <p>click play trailer button to get trailer</p>
+            <ReactPlayer 
+            width="100%"
+            height="100%"
+            className="react-player"
+            url={videoURL} 
+            playing = {false}
+            controls={false}/>
+        </div>
         </Wrapper>
     )
 }

@@ -13,6 +13,20 @@ h3{
 p{
  margin:5px 0;
 }
+
+@media screen and (max-width:450px){
+    width:300px;
+    margin:15px auto;    
+ }
+
+ @media screen and (max-width:360px){
+    width:250px;
+    margin:15px auto;    
+ }
+
+
+ 
+
 `;
 
 

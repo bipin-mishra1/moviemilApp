@@ -11,9 +11,9 @@ import Actor from './Actors/Actor';
 //hook
 import { useParams } from "react-router-dom";
 import { useMovieFetch } from "../hooks/useMovieFetch";
- //img-404
+ //img-not-found
 import No_Image from '../images/no_image.jpg';
-
+import Play from "./trailer/index";
 const Movie = ()=>{
    const {movieId} = useParams();
 
@@ -40,6 +40,7 @@ const Movie = ()=>{
                />
            ))}
            </Grid>
+           <Play video={movie.original_title}/>
         </>
     )
 }
