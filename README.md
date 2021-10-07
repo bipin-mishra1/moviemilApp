@@ -39,7 +39,8 @@ MOVIEMILAPP is a movie review website which is focussed on various aspects of fi
 
 ## Movie Trailer
 
-![movietrailer](https://user-images.githubusercontent.com/91055777/136221421-52b605f7-1521-4e87-b47f-d699a6c4dfc6.jpeg)
+![trailer](https://user-images.githubusercontent.com/84272601/136388101-d11eb50c-5799-4698-99ce-97fcf6cfef17.png)
+
 
 ## Tech Stack
 
