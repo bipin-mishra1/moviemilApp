@@ -17,7 +17,7 @@ MOVIEMILAPP is a movie review website which is focussed on various aspects of fi
 ## How to Use?
 
 1. Make account on TMDB.
-2. Use the same ID & PASSWORD same as the TMDB account.
+2. Use the same ID & PASSWORD as used in the TMDB account.
 
 ![overview](https://user-images.githubusercontent.com/91055777/136218393-d47ec4d8-b246-4a3e-8bff-99b9e49cc227.jpeg)
 
