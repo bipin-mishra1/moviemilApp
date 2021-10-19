@@ -1,5 +1,4 @@
 // Configuration for TMDB API
-// Read more about the API here: https://developers.themoviedb.org/
 
 const API_URL = 'https://api.themoviedb.org/3/';
 const API_KEY = '694bd78e8fd1f5ae1b854c3b254becb7';//process.env.REACT_APP_API_KEY;
