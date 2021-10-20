@@ -48,6 +48,7 @@ const Login = () => {
       <div>
      <label>username</label>
       <input 
+        autocomplete="off"
         type='text'
         value={username}
         name='username'
