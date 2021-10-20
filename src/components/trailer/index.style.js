@@ -32,6 +32,8 @@ button{
 }
 
 .player-wrapper {
+    max-widhth:720px;
+    max-height:640px;
     color:white;
     font-weight:600;
     font-family:monospace;
@@ -39,9 +41,9 @@ button{
     position: relative;
     padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
     border:6px solid #8277B3;
-    p{
+    p{  
         position:absolute;
-        top:50%;
+        top:40%;
         left:40%;
     }
   }
