@@ -63,9 +63,9 @@ npm run start
 * [Chintan Gamit](https://github.com/CHINTAN1923)
 
 
-##Licensed under 
+## Licensed under 
 
-GNU General Public License v3.0	gpl-3.0
+> GNU General Public License v3.0	gpl-3.0
 
 
 
