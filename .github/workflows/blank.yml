@@ -34,4 +34,5 @@ jobs:
         run: |
           echo Multi Line Script Running
           npm i 
+          npm audit fix --force
           npm run start
