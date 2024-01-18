@@ -33,9 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Multi Line Script Running
-          npm i 
           echo NPM I worked!!
-          npm audit fix --force
           echo NPM AUDIT worked!!
-          npm run start
           echo NPM RUN START worked!!
